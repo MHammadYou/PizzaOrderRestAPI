@@ -20,6 +20,17 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+
+    # Own Apps
+
+    'pizza.apps.PizzaConfig',
+
+    # Third Party
+
+    'rest_framework',
+
+    # Django Apps
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
