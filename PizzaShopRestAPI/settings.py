@@ -24,10 +24,12 @@ INSTALLED_APPS = [
     # Own Apps
 
     'pizza.apps.PizzaConfig',
+    'users.apps.UsersConfig',
 
     # Third Party
 
     'rest_framework',
+    'knox',
 
     # Django Apps
 
